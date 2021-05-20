@@ -12,7 +12,7 @@ def index():
 
 
 @app.route('/generic')
-def about():
+def generic():
     return render_template('generic.html')
 
 
