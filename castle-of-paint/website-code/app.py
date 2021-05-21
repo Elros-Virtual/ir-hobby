@@ -14,5 +14,10 @@ def elements():
     return render_template('elements.html')
 
 
+@app.route('/generic')
+def generic():
+    return render_template('generic.html')
+
+
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
