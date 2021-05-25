@@ -19,5 +19,11 @@ def generic():
     return render_template('generic.html')
 
 
+@app.route('/canvaspainting')
+def canvaspainting():
+    return render_template('canvaspainting.html')
+
+
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
+    # app.run(debug=True)
