@@ -14,9 +14,9 @@ def canvaspainting():
     return render_template('canvaspainting.html')
 
 
-@app.route('/miniturepainting')
-def miniturepainting():
-    return render_template('miniturepainting.html')
+@app.route('/miniaturepainting')
+def miniaturepainting():
+    return render_template('miniaturepainting.html')
 
 
 @app.route('/digitalart')
